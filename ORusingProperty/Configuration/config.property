@@ -1,0 +1,7 @@
+ChromePath=C:\\Users\\Chandru\\Downloads\\chromedriver\\chromedriver.exe
+
+APP=file:///C://Users//Chandru//Desktop//Se%20CG%20Materials//SeleniumDemos//AdvancedSeleniumDemos//AdvancedSeleniumDemos//SeleniumWDAPIDemos//src//WorkingWithForms.html
+
+UserName=txtUserName
+PassWord=txtPassword
+Confirm=txtConfPassword

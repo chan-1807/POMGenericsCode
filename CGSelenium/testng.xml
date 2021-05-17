@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true">
+  <test thread-count="5" name="Test">
+	  <groups>
+ 	<define name="spl">
+ 	<include name="car"></include>
+
+ 
+ 	</define>
+  <run>
+  <include name="spl"></include>
+
+  </run>
+  </groups>
+    <classes>
+      <class name="day1.runTest"/>
+      <class name="testNG.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

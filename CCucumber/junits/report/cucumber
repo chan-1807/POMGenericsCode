@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.225894">
+<testcase classname="Login to FacebooK" name="FB LOGIN" time="5.047212">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'DESKTOP-MAF27AG', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00C75E93+2449043]&#10;&#9;Ordinal0 [0x00BA8281+1606273]&#10;&#9;Ordinal0 [0x00A9F889+522377]&#10;&#9;Ordinal0 [0x00A305F3+67059]&#10;&#9;Ordinal0 [0x00A2CD92+52626]&#10;&#9;Ordinal0 [0x00A4C127+180519]&#10;&#9;Ordinal0 [0x00A4BF2D+180013]&#10;&#9;Ordinal0 [0x00A49E5B+171611]&#10;&#9;Ordinal0 [0x00A31DD8+73176]&#10;&#9;Ordinal0 [0x00A32E50+77392]&#10;&#9;Ordinal0 [0x00A32DE9+77289]&#10;&#9;Ordinal0 [0x00BBD7F7+1693687]&#10;&#9;GetHandleVerifier [0x00D14576+522742]&#10;&#9;GetHandleVerifier [0x00D142B4+522036]&#10;&#9;GetHandleVerifier [0x00D29587+608775]&#10;&#9;GetHandleVerifier [0x00D14DE6+524902]&#10;&#9;Ordinal0 [0x00BB5BDC+1661916]&#10;&#9;Ordinal0 [0x00BBF15B+1700187]&#10;&#9;Ordinal0 [0x00BBF2C3+1700547]&#10;&#9;Ordinal0 [0x00BD5135+1790261]&#10;&#9;BaseThreadInitThunk [0x76816359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77BE7C24+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77BE7BF4+180]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at Step.Steps.open_Browser_and_Navigate_to_FB(Steps.java:22)&#13;&#10;&#9;at ✽.Given Open Browser and Navigate to FB(login.feature:3)&#13;&#10;"><![CDATA[Given Open Browser and Navigate to FB.......................................failed
+When Entering Credentials "user@phptravels.com" and "demouser"..............skipped
+And Clicking on login button................................................skipped
+Then It should login to FB..................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MAF27AG', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C75E93+2449043]
+	Ordinal0 [0x00BA8281+1606273]
+	Ordinal0 [0x00A9F889+522377]
+	Ordinal0 [0x00A305F3+67059]
+	Ordinal0 [0x00A2CD92+52626]
+	Ordinal0 [0x00A4C127+180519]
+	Ordinal0 [0x00A4BF2D+180013]
+	Ordinal0 [0x00A49E5B+171611]
+	Ordinal0 [0x00A31DD8+73176]
+	Ordinal0 [0x00A32E50+77392]
+	Ordinal0 [0x00A32DE9+77289]
+	Ordinal0 [0x00BBD7F7+1693687]
+	GetHandleVerifier [0x00D14576+522742]
+	GetHandleVerifier [0x00D142B4+522036]
+	GetHandleVerifier [0x00D29587+608775]
+	GetHandleVerifier [0x00D14DE6+524902]
+	Ordinal0 [0x00BB5BDC+1661916]
+	Ordinal0 [0x00BBF15B+1700187]
+	Ordinal0 [0x00BBF2C3+1700547]
+	Ordinal0 [0x00BD5135+1790261]
+	BaseThreadInitThunk [0x76816359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BE7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BE7BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Step.Steps.open_Browser_and_Navigate_to_FB(Steps.java:22)
+	at ✽.Given Open Browser and Navigate to FB(login.feature:3)
+]]></failure>
+</testcase>
+<testcase classname="Login to FacebooK" name="FB LOGIN 2" time="1.178682">
+<failure message="org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'DESKTOP-MAF27AG', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00C75E93+2449043]&#10;&#9;Ordinal0 [0x00BA8281+1606273]&#10;&#9;Ordinal0 [0x00A9F889+522377]&#10;&#9;Ordinal0 [0x00A305F3+67059]&#10;&#9;Ordinal0 [0x00A2CD92+52626]&#10;&#9;Ordinal0 [0x00A4C127+180519]&#10;&#9;Ordinal0 [0x00A4BF2D+180013]&#10;&#9;Ordinal0 [0x00A49E5B+171611]&#10;&#9;Ordinal0 [0x00A31DD8+73176]&#10;&#9;Ordinal0 [0x00A32E50+77392]&#10;&#9;Ordinal0 [0x00A32DE9+77289]&#10;&#9;Ordinal0 [0x00BBD7F7+1693687]&#10;&#9;GetHandleVerifier [0x00D14576+522742]&#10;&#9;GetHandleVerifier [0x00D142B4+522036]&#10;&#9;GetHandleVerifier [0x00D29587+608775]&#10;&#9;GetHandleVerifier [0x00D14DE6+524902]&#10;&#9;Ordinal0 [0x00BB5BDC+1661916]&#10;&#9;Ordinal0 [0x00BBF15B+1700187]&#10;&#9;Ordinal0 [0x00BBF2C3+1700547]&#10;&#9;Ordinal0 [0x00BD5135+1790261]&#10;&#9;BaseThreadInitThunk [0x76816359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77BE7C24+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77BE7BF4+180]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at Step.Steps.open_Browser_and_Navigate_to_FB(Steps.java:22)&#13;&#10;&#9;at ✽.Given Open Browser and Navigate to FB(login.feature:3)&#13;&#10;"><![CDATA[Given Open Browser and Navigate to FB.......................................failed
+When Entering Credentials "wronguser" and "Wrongpsw"........................skipped
+And Clicking on login button................................................skipped
+Then It should login to FB..................................................skipped
+
+StackTrace:
+org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-MAF27AG', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C75E93+2449043]
+	Ordinal0 [0x00BA8281+1606273]
+	Ordinal0 [0x00A9F889+522377]
+	Ordinal0 [0x00A305F3+67059]
+	Ordinal0 [0x00A2CD92+52626]
+	Ordinal0 [0x00A4C127+180519]
+	Ordinal0 [0x00A4BF2D+180013]
+	Ordinal0 [0x00A49E5B+171611]
+	Ordinal0 [0x00A31DD8+73176]
+	Ordinal0 [0x00A32E50+77392]
+	Ordinal0 [0x00A32DE9+77289]
+	Ordinal0 [0x00BBD7F7+1693687]
+	GetHandleVerifier [0x00D14576+522742]
+	GetHandleVerifier [0x00D142B4+522036]
+	GetHandleVerifier [0x00D29587+608775]
+	GetHandleVerifier [0x00D14DE6+524902]
+	Ordinal0 [0x00BB5BDC+1661916]
+	Ordinal0 [0x00BBF15B+1700187]
+	Ordinal0 [0x00BBF2C3+1700547]
+	Ordinal0 [0x00BD5135+1790261]
+	BaseThreadInitThunk [0x76816359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BE7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BE7BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Step.Steps.open_Browser_and_Navigate_to_FB(Steps.java:22)
+	at ✽.Given Open Browser and Navigate to FB(login.feature:3)
+]]></failure>
+</testcase>
+</testsuite>
